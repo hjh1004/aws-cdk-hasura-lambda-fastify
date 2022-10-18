@@ -1,0 +1,34 @@
+{
+  "name": "aws-cdk-hasura-lambda-fastify",
+  "version": "0.0.1",
+  "description": "aws-cdk-hasura-lambda-fastify best practice",
+  "private": true,
+  "workspaces": [
+    "aws"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1",
+    "turbo": "^1.5.6",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjh1004/aws-cdk-hasura-lambda-fastify.git"
+  },
+  "author": "Leo HeoJun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjh1004/aws-cdk-hasura-lambda-fastify/issues"
+  },
+  "packageManager": "yarn@3.2.4"
+}
