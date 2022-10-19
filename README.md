@@ -20,7 +20,26 @@ Implement AWS CDK stack
 - lambda
 - client ecs
 
-# Turborepo starter
+# Stack
+
+- Turborepo(monorepo)
+- Yarn berry
+
+## Prerequsite
+
+# Install turborepo
+
+# Set yarn berry(plug n play mode)
+
+```bash
+$ npm install -g yarn
+$ cd ../path/to/some-package
+$ yarn set version berry
+```
+
+# Install aws cli and aws cdk
+
+<!-- # Turborepo starter
 
 This is an official Yarn v1 starter turborepo.
 
@@ -92,4 +111,4 @@ Learn more about the power of Turborepo:
 - [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
 - [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
 - [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference) -->
