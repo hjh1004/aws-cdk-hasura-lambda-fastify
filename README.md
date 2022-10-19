@@ -9,7 +9,7 @@ Implement aws serverless mpv best practice
 # Plan
 
 Set up
-Implement AWS CDK stack
+Implement AWS CDK(V2) stack
 
 - vpc
 - ecs cluster
@@ -24,6 +24,7 @@ Implement AWS CDK stack
 
 - Turborepo(monorepo)
 - Yarn berry
+- AWS CLI & CDK(V2)
 
 ## Prerequsite
 

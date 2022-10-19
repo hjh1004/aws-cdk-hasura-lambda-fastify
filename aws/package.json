@@ -1,12 +1,14 @@
 {
   "name": "aws",
   "version": "0.1.0",
-  "bin": "bin/aws.js",
+  "bin": "bin/backend.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "cdk:diff:dev": "NODE_ENV=dev cdk diff",
+    "cdk:deploy:dev": "NODE_ENV=dev cdk deploy"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
@@ -21,6 +23,7 @@
   "dependencies": {
     "aws-cdk-lib": "2.25.0",
     "constructs": "^10.1.132",
+    "dotenv": "^16.0.3",
     "source-map-support": "^0.5.16"
   },
   "packageManager": "yarn@3.2.4"

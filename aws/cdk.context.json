@@ -1,0 +1,9 @@
+{
+  "availability-zones:account=715181088219:region=ap-northeast-2": [
+    "ap-northeast-2a",
+    "ap-northeast-2b",
+    "ap-northeast-2c",
+    "ap-northeast-2d"
+  ],
+  "ami:account=715181088219:filters.image-type.0=machine:filters.name.0=amzn-ami-vpc-nat-*:filters.state.0=available:owners.0=amazon:region=ap-northeast-2": "ami-0ddf5e27c82e49afc"
+}
