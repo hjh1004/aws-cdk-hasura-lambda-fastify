@@ -435,7 +435,7 @@ __metadata:
   dependencies:
     "@humanwhocodes/object-schema": ^1.2.1
     debug: ^4.1.1
-    minimatch: ^3.0.4
+    minimatch: ^3.0.5
   checksum: 009d64be8d5bd098ff04e10af79e34f5633245250581fca032fac12a8667b2df8e7d169e69c05bff4d83ea3dd3c7d2d0e05ea9b94d89a7d092e26530caf6f8a3
   languageName: node
   linkType: hard
@@ -5475,7 +5475,7 @@ __metadata:
   dependencies:
     "@istanbuljs/schema": ^0.1.2
     glob: ^7.1.4
-    minimatch: ^3.0.4
+    minimatch: ^3.0.5
   checksum: 3b34a3d77165a2cb82b34014b3aba93b1c4637a5011807557dc2f3da826c59975a5ccad765721c4648b39817e3472789f9b0fa98fc854c5c1c7a1e632aacdc28
   languageName: node
   linkType: hard
