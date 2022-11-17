@@ -13,5 +13,9 @@ export const developmentConfig: Config = {
 
   vpc: {
     natType: NatType.NAT_INSTANCE,
+  },
+
+  domain: {
+    base: 'leoheojun.com',
   }
 };

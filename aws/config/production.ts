@@ -13,5 +13,9 @@ export const productionConfig: Config = {
 
     vpc: {
         natType: NatType.NAT_GATEWAY,
+    },
+
+    domain: {
+        base: 'leoheojun.com',
     }
 }

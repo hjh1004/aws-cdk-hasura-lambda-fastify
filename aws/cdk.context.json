@@ -5,5 +5,9 @@
     "ap-northeast-2c",
     "ap-northeast-2d"
   ],
-  "ami:account=715181088219:filters.image-type.0=machine:filters.name.0=amzn-ami-vpc-nat-*:filters.state.0=available:owners.0=amazon:region=ap-northeast-2": "ami-0ddf5e27c82e49afc"
+  "ami:account=715181088219:filters.image-type.0=machine:filters.name.0=amzn-ami-vpc-nat-*:filters.state.0=available:owners.0=amazon:region=ap-northeast-2": "ami-0ddf5e27c82e49afc",
+  "hosted-zone:account=715181088219:domainName=leoheojun.com:region=ap-northeast-2": {
+    "Id": "/hostedzone/Z07403344NEKAVVOZGTJ",
+    "Name": "leoheojun.com."
+  }
 }

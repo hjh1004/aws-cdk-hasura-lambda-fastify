@@ -21,4 +21,8 @@ export interface Config {
   vpc: {
     natType: NatType;
   };
+
+  domain: {
+    base: string;
+  };
 }
